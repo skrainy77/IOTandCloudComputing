@@ -95,16 +95,10 @@ function RenderGalleryPage() {
         `<h1 class="title">Gallery</h1>
 <div id="gallery" class="gallery"></div>
 <div id="loading" class="loading">Loading...</div>
-<div class="modal" id="image-modal">
-<span class="modal-close" id="modal-close">&times;</span>
-<img class="modal-content" id="modal-image" />
 </div>`;
 
     const gallery = document.getElementById('gallery');
     const loading = document.getElementById('loading');
-    const modal = document.getElementById('image-modal');
-    const modalImage = document.getElementById('modal-image');
-
     let imageCount = 9;
     let isLoading = false;
 
